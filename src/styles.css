@@ -12,18 +12,20 @@ img {
 
 h1 {
   font-size: 100px;
+  margin-top: 30px;
 }
 
 h2 {
   text-align: center;
   font-size: 50px;
+  margin-top: 30px;
 }
 
 .button {
   background: #d19c43;
   color: white;
   text-align: center;
-  padding: 15px 20px;
+  padding: 15px 40px;
   font-size: 20px;
 }
 
