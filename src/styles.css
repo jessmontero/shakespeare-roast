@@ -1,0 +1,33 @@
+body {
+  margin: 30px 0;
+  background: #882222;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 450px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.button {
+  background: #d19c43;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+.insult-button {
+  text-align: center;
+  margin-top: 50px;
+}
