@@ -71,6 +71,10 @@ a:hover {
     font-size: 26px;
   }
 
+  footer {
+    margin-top: 120px;
+  }
+
   .image {
     max-width: 230px;
   }
