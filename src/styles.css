@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 20px 40px 10px;
-  background: #a72c2c;
+  margin: 30px 40px 0px;
+  background: linear-gradient(to bottom, #a72c2c, #872424);
+  background-size: cover;
   color: white;
   font-family: "Hina Mincho", serif;
   line-height: 1;
@@ -20,9 +25,13 @@ h2 {
 
 footer {
   font-family: "Poppins", sans-serif;
-  margin-top: 60px;
   text-align: center;
+  padding: 20px 0;
   font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 a {
@@ -37,6 +46,7 @@ a:hover {
   max-width: 380px;
   display: block;
   margin: 0 auto;
+  transform: rotate(1.6deg);
 }
 
 .button {
@@ -55,6 +65,10 @@ a:hover {
 .insult-button {
   text-align: center;
   margin-top: 20px;
+}
+
+.insult {
+  margin-bottom: 80px;
 }
 
 @media (max-width: 576px) {
